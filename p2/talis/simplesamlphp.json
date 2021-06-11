@@ -1,0 +1,195 @@
+{
+    "packages": {
+        "talis/simplesamlphp": [
+            {
+                "name": "talis/simplesamlphp",
+                "version": "1.14.3",
+                "version_normalized": "1.14.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "84789367526f0b284a4de35e385b80053bb7e1b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/84789367526f0b284a4de35e385b80053bb7e1b2",
+                    "reference": "84789367526f0b284a4de35e385b80053bb7e1b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "robrichards/xmlseclibs": "~1.4.1",
+                    "simplesamlphp/saml2": "~1.9",
+                    "whitehat101/apr1-md5": "~1.0"
+                },
+                "require-dev": {
+                    "ext-pdo_sqlite": "*",
+                    "phpunit/phpunit": "~3.7",
+                    "satooshi/php-coveralls": "^1.0"
+                },
+                "time": "2016-05-16T15:26:03+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "SimpleSAML\\": "lib/SimpleSAML"
+                    },
+                    "files": [
+                        "lib/_autoload_modules.php"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Åkre Solberg",
+                        "email": "andreas.solberg@uninett.no"
+                    },
+                    {
+                        "name": "Olav Morken",
+                        "email": "olav.morken@uninett.no"
+                    },
+                    {
+                        "name": "Jaime Perez",
+                        "email": "jaime.perez@uninett.no"
+                    }
+                ],
+                "description": "A PHP implementation of a SAML 2.0 service provider and identity provider, also compatible with Shibboleth 1.3 and 2.0.",
+                "homepage": "http://simplesamlphp.org",
+                "keywords": [
+                    "idp",
+                    "oauth",
+                    "saml2",
+                    "shibboleth",
+                    "sp",
+                    "ws-federation"
+                ],
+                "support": {
+                    "issues": "https://github.com/simplesamlphp/simplesamlphp/issues",
+                    "source": "https://github.com/simplesamlphp/simplesamlphp"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            },
+            {
+                "name": "talis/simplesamlphp",
+                "version": "1.8.2",
+                "version_normalized": "1.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "f01e48dc7e78bda7dd131b51e2b7634429e7b013"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/f01e48dc7e78bda7dd131b51e2b7634429e7b013",
+                    "reference": "f01e48dc7e78bda7dd131b51e2b7634429e7b013",
+                    "shasum": ""
+                },
+                "time": "2013-04-25T08:40:59+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/simplesamlphp/tree/1.8.2",
+                    "issues": "https://github.com/talis/simplesamlphp/issues"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            },
+            {
+                "name": "talis/simplesamlphp",
+                "version": "1.8.3",
+                "version_normalized": "1.8.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "bd82c52d8223b5c61f8bb6d4a52c331e90fcf004"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/bd82c52d8223b5c61f8bb6d4a52c331e90fcf004",
+                    "reference": "bd82c52d8223b5c61f8bb6d4a52c331e90fcf004",
+                    "shasum": ""
+                },
+                "time": "2014-07-11T08:34:06+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/simplesamlphp/tree/1.8.3",
+                    "issues": "https://github.com/talis/simplesamlphp/issues"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            },
+            {
+                "name": "talis/simplesamlphp",
+                "version": "1.8.4",
+                "version_normalized": "1.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "a85936fdf60bd3442c971216a4120e2510d098fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/a85936fdf60bd3442c971216a4120e2510d098fb",
+                    "reference": "a85936fdf60bd3442c971216a4120e2510d098fb",
+                    "shasum": ""
+                },
+                "time": "2014-07-17T07:22:15+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/simplesamlphp/tree/1.8.4",
+                    "issues": "https://github.com/talis/simplesamlphp/issues"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            },
+            {
+                "name": "talis/simplesamlphp",
+                "version": "1.8.5",
+                "version_normalized": "1.8.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "cb5d7d3510a1f77bcb81a90fec5e0a62a8cad6a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/cb5d7d3510a1f77bcb81a90fec5e0a62a8cad6a3",
+                    "reference": "cb5d7d3510a1f77bcb81a90fec5e0a62a8cad6a3",
+                    "shasum": ""
+                },
+                "time": "2014-07-17T12:00:38+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/simplesamlphp/tree/1.8.5",
+                    "issues": "https://github.com/talis/simplesamlphp/issues"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            }
+        ]
+    }
+}

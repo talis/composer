@@ -1,0 +1,29 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$8cd899df4cbfe3076a420118dc94e765f691afe3.json": {
+            "sha1": "8cd899df4cbfe3076a420118dc94e765f691afe3"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "chrisboulton/php-resque",
+        "oclc/auth",
+        "rsinger/worldcat-linkeddata-php",
+        "t0k4rt/phpqrcode",
+        "talis/bling",
+        "talis/bootstrap-sass",
+        "talis/conneg",
+        "talis/f3",
+        "talis/fatfree",
+        "talis/lti1x-php",
+        "talis/niso-openurl",
+        "talis/resque-multiple-failure-queues",
+        "talis/selenium-server-standalone",
+        "talis/sierra-api-php-client",
+        "talis/simplesamlphp",
+        "talis/sruclient-php",
+        "talis/talis-php",
+        "talis/tripod-php"
+    ]
+}

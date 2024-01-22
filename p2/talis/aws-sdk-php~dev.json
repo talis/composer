@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "talis/aws-sdk-php": [
+            {
+                "name": "talis/aws-sdk-php",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/aws-sdk-php.git",
+                    "reference": "761efe048ef97d6b86b44fec13b7cd82e859b40b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/aws-sdk-php/zipball/761efe048ef97d6b86b44fec13b7cd82e859b40b",
+                    "reference": "761efe048ef97d6b86b44fec13b7cd82e859b40b",
+                    "shasum": ""
+                },
+                "time": "2013-04-25T08:13:50+00:00",
+                "default-branch": true,
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/aws-sdk-php/tree/1.6.0",
+                    "issues": "https://github.com/talis/aws-sdk-php/issues"
+                }
+            }
+        ]
+    }
+}

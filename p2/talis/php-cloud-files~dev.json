@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "talis/php-cloud-files": [
+            {
+                "name": "talis/php-cloud-files",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-cloud-files.git",
+                    "reference": "c593c2acaa45887102af9fca399cc64d0b78d760"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-cloud-files/zipball/c593c2acaa45887102af9fca399cc64d0b78d760",
+                    "reference": "c593c2acaa45887102af9fca399cc64d0b78d760",
+                    "shasum": ""
+                },
+                "time": "2013-12-17T14:54:13+00:00",
+                "default-branch": true,
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "cc@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/php-cloud-files/tree/master",
+                    "issues": "https://github.com/talis/php-cloud-files/issues"
+                }
+            }
+        ]
+    }
+}

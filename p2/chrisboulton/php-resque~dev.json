@@ -1,0 +1,487 @@
+{
+    "packages": {
+        "chrisboulton/php-resque": [
+            {
+                "name": "chrisboulton/php-resque",
+                "version": "dev-TENT-1578-ImproveLoggingOfLostJobs",
+                "version_normalized": "dev-TENT-1578-ImproveLoggingOfLostJobs",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-resque.git",
+                    "reference": "0f1043a420c5b7b6914049a387d91c69f911c31e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-resque/zipball/0f1043a420c5b7b6914049a387d91c69f911c31e",
+                    "reference": "0f1043a420c5b7b6914049a387d91c69f911c31e",
+                    "shasum": ""
+                },
+                "require": {
+                    "colinmollenhour/credis": "~1.2",
+                    "ext-pcntl": "*",
+                    "php": ">=5.3.0",
+                    "psr/log": "1.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "suggest": {
+                    "ext-proctitle": "Allows php-resque to rename the title of UNIX processes to show the status of a worker.",
+                    "ext-redis": "Native PHP extension for Redis connectivity. Credis will automatically utilize when available."
+                },
+                "time": "2015-12-15T13:34:24+00:00",
+                "bin": [
+                    "bin/resque"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Resque": "lib"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Boulton",
+                        "email": "chris@bigcommerce.com"
+                    }
+                ],
+                "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+                "homepage": "http://www.github.com/chrisboulton/php-resque/",
+                "keywords": [
+                    "background",
+                    "job",
+                    "redis",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/php-resque/tree/TENT-1578-ImproveLoggingOfLostJobs"
+                },
+                "abandoned": "resque/php-resque"
+            },
+            {
+                "name": "chrisboulton/php-resque",
+                "version": "dev-ZENDESK_12084",
+                "version_normalized": "dev-ZENDESK_12084",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-resque.git",
+                    "reference": "4aa3063e5015c9d80fe6378c300fd1e8adc0d5da"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-resque/zipball/4aa3063e5015c9d80fe6378c300fd1e8adc0d5da",
+                    "reference": "4aa3063e5015c9d80fe6378c300fd1e8adc0d5da",
+                    "shasum": ""
+                },
+                "require": {
+                    "colinmollenhour/credis": "~1.2",
+                    "ext-pcntl": "*",
+                    "php": ">=5.3.0",
+                    "psr/log": "1.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "suggest": {
+                    "ext-proctitle": "Allows php-resque to rename the title of UNIX processes to show the status of a worker.",
+                    "ext-redis": "Native PHP extension for Redis connectivity. Credis will automatically utilize when available."
+                },
+                "time": "2016-02-19T15:20:39+00:00",
+                "bin": [
+                    "bin/resque"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Resque": "lib"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Boulton",
+                        "email": "chris@bigcommerce.com"
+                    }
+                ],
+                "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+                "homepage": "http://www.github.com/chrisboulton/php-resque/",
+                "keywords": [
+                    "background",
+                    "job",
+                    "redis",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/php-resque/tree/ZENDESK_12084"
+                },
+                "abandoned": "resque/php-resque"
+            },
+            {
+                "name": "chrisboulton/php-resque",
+                "version": "dev-exceptions",
+                "version_normalized": "dev-exceptions",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-resque.git",
+                    "reference": "7f2ea51411467d150541fad1cf0c2937c4ec1621"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-resque/zipball/7f2ea51411467d150541fad1cf0c2937c4ec1621",
+                    "reference": "7f2ea51411467d150541fad1cf0c2937c4ec1621",
+                    "shasum": ""
+                },
+                "require": {
+                    "colinmollenhour/credis": "~1.2",
+                    "ext-pcntl": "*",
+                    "php": ">=5.3.0",
+                    "psr/log": "1.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "suggest": {
+                    "ext-proctitle": "Allows php-resque to rename the title of UNIX processes to show the status of a worker.",
+                    "ext-redis": "Native PHP extension for Redis connectivity. Credis will automatically utilize when available."
+                },
+                "time": "2015-02-03T17:54:08+00:00",
+                "bin": [
+                    "bin/resque"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Resque": "lib"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Boulton",
+                        "email": "chris@bigcommerce.com"
+                    }
+                ],
+                "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+                "homepage": "http://www.github.com/chrisboulton/php-resque/",
+                "keywords": [
+                    "background",
+                    "job",
+                    "redis",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/php-resque/tree/exceptions"
+                },
+                "abandoned": "resque/php-resque"
+            },
+            {
+                "name": "chrisboulton/php-resque",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-resque.git",
+                    "reference": "a4a7ba6c5df2e95ba63b4c8441577a85eb5f19b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-resque/zipball/a4a7ba6c5df2e95ba63b4c8441577a85eb5f19b0",
+                    "reference": "a4a7ba6c5df2e95ba63b4c8441577a85eb5f19b0",
+                    "shasum": ""
+                },
+                "require": {
+                    "colinmollenhour/credis": "~1.2",
+                    "ext-pcntl": "*",
+                    "php": ">=5.3.0",
+                    "psr/log": "1.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "suggest": {
+                    "ext-proctitle": "Allows php-resque to rename the title of UNIX processes to show the status of a worker.",
+                    "ext-redis": "Native PHP extension for Redis connectivity. Credis will automatically utilize when available."
+                },
+                "time": "2019-06-25T13:07:23+00:00",
+                "bin": [
+                    "bin/resque"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Resque": "lib"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Boulton",
+                        "email": "chris@bigcommerce.com"
+                    }
+                ],
+                "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+                "homepage": "http://www.github.com/chrisboulton/php-resque/",
+                "keywords": [
+                    "background",
+                    "job",
+                    "redis",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/php-resque/tree/master"
+                },
+                "abandoned": "resque/php-resque"
+            },
+            {
+                "name": "chrisboulton/php-resque",
+                "version": "dev-posix_signals_not_working_on_php7",
+                "version_normalized": "dev-posix_signals_not_working_on_php7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-resque.git",
+                    "reference": "d3f77f3002e1617d3b80e38241cb6da0741dbb29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-resque/zipball/d3f77f3002e1617d3b80e38241cb6da0741dbb29",
+                    "reference": "d3f77f3002e1617d3b80e38241cb6da0741dbb29",
+                    "shasum": ""
+                },
+                "require": {
+                    "colinmollenhour/credis": "~1.2",
+                    "ext-pcntl": "*",
+                    "php": ">=5.3.0",
+                    "psr/log": "1.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "suggest": {
+                    "ext-proctitle": "Allows php-resque to rename the title of UNIX processes to show the status of a worker.",
+                    "ext-redis": "Native PHP extension for Redis connectivity. Credis will automatically utilize when available."
+                },
+                "time": "2019-06-25T12:52:22+00:00",
+                "bin": [
+                    "bin/resque"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Resque": "lib"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Boulton",
+                        "email": "chris@bigcommerce.com"
+                    }
+                ],
+                "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+                "homepage": "http://www.github.com/chrisboulton/php-resque/",
+                "keywords": [
+                    "background",
+                    "job",
+                    "redis",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/php-resque/tree/posix_signals_not_working_on_php7"
+                },
+                "abandoned": "resque/php-resque"
+            },
+            {
+                "name": "chrisboulton/php-resque",
+                "version": "dev-posix_signals_php7",
+                "version_normalized": "dev-posix_signals_php7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-resque.git",
+                    "reference": "de33f05253e1e034267bd59e4b2743891448c4d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-resque/zipball/de33f05253e1e034267bd59e4b2743891448c4d6",
+                    "reference": "de33f05253e1e034267bd59e4b2743891448c4d6",
+                    "shasum": ""
+                },
+                "require": {
+                    "colinmollenhour/credis": "~1.2",
+                    "ext-pcntl": "*",
+                    "php": ">=5.3.0",
+                    "psr/log": "1.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "suggest": {
+                    "ext-proctitle": "Allows php-resque to rename the title of UNIX processes to show the status of a worker.",
+                    "ext-redis": "Native PHP extension for Redis connectivity. Credis will automatically utilize when available."
+                },
+                "time": "2019-06-25T13:11:05+00:00",
+                "bin": [
+                    "bin/resque"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Resque": "lib"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Boulton",
+                        "email": "chris@bigcommerce.com"
+                    }
+                ],
+                "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+                "homepage": "http://www.github.com/chrisboulton/php-resque/",
+                "keywords": [
+                    "background",
+                    "job",
+                    "redis",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/php-resque/tree/posix_signals_php7"
+                },
+                "abandoned": "resque/php-resque"
+            },
+            {
+                "name": "chrisboulton/php-resque",
+                "version": "dev-revert-5-posix_signals_not_working_on_php7",
+                "version_normalized": "dev-revert-5-posix_signals_not_working_on_php7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-resque.git",
+                    "reference": "67178195879f59cc26eab19e617b2b0d9cdba32e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-resque/zipball/67178195879f59cc26eab19e617b2b0d9cdba32e",
+                    "reference": "67178195879f59cc26eab19e617b2b0d9cdba32e",
+                    "shasum": ""
+                },
+                "require": {
+                    "colinmollenhour/credis": "~1.2",
+                    "ext-pcntl": "*",
+                    "php": ">=5.3.0",
+                    "psr/log": "1.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "suggest": {
+                    "ext-proctitle": "Allows php-resque to rename the title of UNIX processes to show the status of a worker.",
+                    "ext-redis": "Native PHP extension for Redis connectivity. Credis will automatically utilize when available."
+                },
+                "time": "2019-06-25T13:08:30+00:00",
+                "bin": [
+                    "bin/resque"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Resque": "lib"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Boulton",
+                        "email": "chris@bigcommerce.com"
+                    }
+                ],
+                "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+                "homepage": "http://www.github.com/chrisboulton/php-resque/",
+                "keywords": [
+                    "background",
+                    "job",
+                    "redis",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/php-resque/tree/revert-5-posix_signals_not_working_on_php7"
+                },
+                "abandoned": "resque/php-resque"
+            },
+            {
+                "name": "chrisboulton/php-resque",
+                "version": "dev-working",
+                "version_normalized": "dev-working",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/php-resque.git",
+                    "reference": "f2db9542196c267616e1833bf14641c864bf65cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/php-resque/zipball/f2db9542196c267616e1833bf14641c864bf65cc",
+                    "reference": "f2db9542196c267616e1833bf14641c864bf65cc",
+                    "shasum": ""
+                },
+                "require": {
+                    "colinmollenhour/credis": "~1.2",
+                    "ext-pcntl": "*",
+                    "php": ">=5.3.0",
+                    "psr/log": "1.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "suggest": {
+                    "ext-proctitle": "Allows php-resque to rename the title of UNIX processes to show the status of a worker.",
+                    "ext-redis": "Native PHP extension for Redis connectivity. Credis will automatically utilize when available."
+                },
+                "time": "2019-06-25T13:13:10+00:00",
+                "default-branch": true,
+                "bin": [
+                    "bin/resque"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Resque": "lib"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Boulton",
+                        "email": "chris@bigcommerce.com"
+                    }
+                ],
+                "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+                "homepage": "http://www.github.com/chrisboulton/php-resque/",
+                "keywords": [
+                    "background",
+                    "job",
+                    "redis",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/php-resque/tree/working"
+                },
+                "abandoned": "resque/php-resque"
+            }
+        ]
+    }
+}

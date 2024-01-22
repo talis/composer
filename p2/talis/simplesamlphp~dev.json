@@ -1,0 +1,274 @@
+{
+    "packages": {
+        "talis/simplesamlphp": [
+            {
+                "name": "talis/simplesamlphp",
+                "version": "dev-1-8-5-php55-compatibility",
+                "version_normalized": "dev-1-8-5-php55-compatibility",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "f92b799815918b406ec7dfaeea968e993b025665"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/f92b799815918b406ec7dfaeea968e993b025665",
+                    "reference": "f92b799815918b406ec7dfaeea968e993b025665",
+                    "shasum": ""
+                },
+                "time": "2017-04-06T17:50:40+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/simplesamlphp/tree/1-8-5-php55-compatibility",
+                    "issues": "https://github.com/talis/simplesamlphp/issues"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            },
+            {
+                "name": "talis/simplesamlphp",
+                "version": "dev-TAL-243-http-https-redirect",
+                "version_normalized": "dev-TAL-243-http-https-redirect",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "7cfdd7777bb10833765e89d35e87a8791c29fec8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/7cfdd7777bb10833765e89d35e87a8791c29fec8",
+                    "reference": "7cfdd7777bb10833765e89d35e87a8791c29fec8",
+                    "shasum": ""
+                },
+                "time": "2014-07-17T11:54:46+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/simplesamlphp/tree/TAL-243-http-https-redirect",
+                    "issues": "https://github.com/talis/simplesamlphp/issues"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            },
+            {
+                "name": "talis/simplesamlphp",
+                "version": "dev-dev-plat-255-update",
+                "version_normalized": "dev-dev-plat-255-update",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "7e4dc85154623d03305e2b0424bf05d7278905cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/7e4dc85154623d03305e2b0424bf05d7278905cd",
+                    "reference": "7e4dc85154623d03305e2b0424bf05d7278905cd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "robrichards/xmlseclibs": "~1.4.1",
+                    "simplesamlphp/saml2": "~1.9",
+                    "whitehat101/apr1-md5": "~1.0"
+                },
+                "require-dev": {
+                    "ext-pdo_sqlite": "*",
+                    "phpunit/phpunit": "~3.7",
+                    "satooshi/php-coveralls": "^1.0"
+                },
+                "time": "2016-05-16T15:24:04+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "SimpleSAML\\": "lib/SimpleSAML"
+                    },
+                    "files": [
+                        "lib/_autoload_modules.php"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Åkre Solberg",
+                        "email": "andreas.solberg@uninett.no"
+                    },
+                    {
+                        "name": "Olav Morken",
+                        "email": "olav.morken@uninett.no"
+                    },
+                    {
+                        "name": "Jaime Perez",
+                        "email": "jaime.perez@uninett.no"
+                    }
+                ],
+                "description": "A PHP implementation of a SAML 2.0 service provider and identity provider, also compatible with Shibboleth 1.3 and 2.0.",
+                "homepage": "http://simplesamlphp.org",
+                "keywords": [
+                    "idp",
+                    "oauth",
+                    "saml2",
+                    "shibboleth",
+                    "sp",
+                    "ws-federation"
+                ],
+                "support": {
+                    "issues": "https://github.com/simplesamlphp/simplesamlphp/issues",
+                    "source": "https://github.com/simplesamlphp/simplesamlphp"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            },
+            {
+                "name": "talis/simplesamlphp",
+                "version": "dev-fix-composer",
+                "version_normalized": "dev-fix-composer",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "b3b39340be0894658f0c466f85786ad221f252c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/b3b39340be0894658f0c466f85786ad221f252c8",
+                    "reference": "b3b39340be0894658f0c466f85786ad221f252c8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "robrichards/xmlseclibs": "~1.4.1",
+                    "simplesamlphp/saml2": "~1.9",
+                    "whitehat101/apr1-md5": "~1.0"
+                },
+                "require-dev": {
+                    "ext-pdo_sqlite": "*",
+                    "phpunit/phpunit": "~3.7",
+                    "satooshi/php-coveralls": "^1.0"
+                },
+                "time": "2016-05-16T15:25:42+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "SimpleSAML\\": "lib/SimpleSAML"
+                    },
+                    "files": [
+                        "lib/_autoload_modules.php"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Åkre Solberg",
+                        "email": "andreas.solberg@uninett.no"
+                    },
+                    {
+                        "name": "Olav Morken",
+                        "email": "olav.morken@uninett.no"
+                    },
+                    {
+                        "name": "Jaime Perez",
+                        "email": "jaime.perez@uninett.no"
+                    }
+                ],
+                "description": "A PHP implementation of a SAML 2.0 service provider and identity provider, also compatible with Shibboleth 1.3 and 2.0.",
+                "homepage": "http://simplesamlphp.org",
+                "keywords": [
+                    "idp",
+                    "oauth",
+                    "saml2",
+                    "shibboleth",
+                    "sp",
+                    "ws-federation"
+                ],
+                "support": {
+                    "issues": "https://github.com/simplesamlphp/simplesamlphp/issues",
+                    "source": "https://github.com/simplesamlphp/simplesamlphp"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            },
+            {
+                "name": "talis/simplesamlphp",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/simplesamlphp.git",
+                    "reference": "84789367526f0b284a4de35e385b80053bb7e1b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/simplesamlphp/zipball/84789367526f0b284a4de35e385b80053bb7e1b2",
+                    "reference": "84789367526f0b284a4de35e385b80053bb7e1b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "robrichards/xmlseclibs": "~1.4.1",
+                    "simplesamlphp/saml2": "~1.9",
+                    "whitehat101/apr1-md5": "~1.0"
+                },
+                "require-dev": {
+                    "ext-pdo_sqlite": "*",
+                    "phpunit/phpunit": "~3.7",
+                    "satooshi/php-coveralls": "^1.0"
+                },
+                "time": "2016-05-16T15:26:03+00:00",
+                "default-branch": true,
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "SimpleSAML\\": "lib/SimpleSAML"
+                    },
+                    "files": [
+                        "lib/_autoload_modules.php"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Åkre Solberg",
+                        "email": "andreas.solberg@uninett.no"
+                    },
+                    {
+                        "name": "Olav Morken",
+                        "email": "olav.morken@uninett.no"
+                    },
+                    {
+                        "name": "Jaime Perez",
+                        "email": "jaime.perez@uninett.no"
+                    }
+                ],
+                "description": "A PHP implementation of a SAML 2.0 service provider and identity provider, also compatible with Shibboleth 1.3 and 2.0.",
+                "homepage": "http://simplesamlphp.org",
+                "keywords": [
+                    "idp",
+                    "oauth",
+                    "saml2",
+                    "shibboleth",
+                    "sp",
+                    "ws-federation"
+                ],
+                "support": {
+                    "issues": "https://github.com/simplesamlphp/simplesamlphp/issues",
+                    "source": "https://github.com/simplesamlphp/simplesamlphp"
+                },
+                "abandoned": "simplesamlphp/simplesamlphp"
+            }
+        ]
+    }
+}

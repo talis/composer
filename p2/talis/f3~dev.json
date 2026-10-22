@@ -1,0 +1,129 @@
+{
+    "packages": {
+        "talis/f3": [
+            {
+                "name": "talis/f3",
+                "version": "dev-dev-34",
+                "version_normalized": "dev-dev-34",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/f3.git",
+                    "reference": "9a6b6270e5164e660cf737a98da000813315975e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/f3/zipball/9a6b6270e5164e660cf737a98da000813315975e",
+                    "reference": "9a6b6270e5164e660cf737a98da000813315975e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.6"
+                },
+                "time": "2015-03-09T21:15:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "lib/base.php"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+                "homepage": "http://fatfreeframework.com/",
+                "support": {
+                    "source": "https://github.com/talis/f3/tree/dev-34",
+                    "issues": "https://github.com/talis/f3/issues"
+                }
+            },
+            {
+                "name": "talis/f3",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/f3.git",
+                    "reference": "a1cf7c9c913b57431ea25f977ef2f90d425ec038"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/f3/zipball/a1cf7c9c913b57431ea25f977ef2f90d425ec038",
+                    "reference": "a1cf7c9c913b57431ea25f977ef2f90d425ec038",
+                    "shasum": ""
+                },
+                "time": "2026-10-22T14:39:15+00:00",
+                "default-branch": true,
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/f3/tree/2.0.12.4",
+                    "issues": "https://github.com/talis/f3/issues"
+                }
+            },
+            {
+                "name": "talis/f3",
+                "version": "dev-php74-cli-mock-before-start",
+                "version_normalized": "dev-php74-cli-mock-before-start",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/f3.git",
+                    "reference": "69548375ac9332a3d6a272298dfd43d0ddd721c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/f3/zipball/69548375ac9332a3d6a272298dfd43d0ddd721c5",
+                    "reference": "69548375ac9332a3d6a272298dfd43d0ddd721c5",
+                    "shasum": ""
+                },
+                "time": "2026-10-22T14:38:53+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/f3/tree/php74-cli-mock-before-start",
+                    "issues": "https://github.com/talis/f3/issues"
+                }
+            },
+            {
+                "name": "talis/f3",
+                "version": "dev-php74-nested-ternary",
+                "version_normalized": "dev-php74-nested-ternary",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/f3.git",
+                    "reference": "3d2d5f9b8b8ac86d6a6eb3b617b4d72ca7379ed7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/f3/zipball/3d2d5f9b8b8ac86d6a6eb3b617b4d72ca7379ed7",
+                    "reference": "3d2d5f9b8b8ac86d6a6eb3b617b4d72ca7379ed7",
+                    "shasum": ""
+                },
+                "time": "2026-10-22T12:49:47+00:00",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Talis",
+                        "email": "ab@talis.com"
+                    }
+                ],
+                "homepage": "http://talis.com",
+                "support": {
+                    "source": "https://github.com/talis/f3/tree/php74-nested-ternary",
+                    "issues": "https://github.com/talis/f3/issues"
+                }
+            }
+        ]
+    }
+}

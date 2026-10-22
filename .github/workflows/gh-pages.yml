@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Composer cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.composer/cache/repo
           key: composer-cache
@@ -40,7 +40,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         if: ${{ success() && github.ref == 'refs/heads/main' }}
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: gh-pages
           build_dir: dist

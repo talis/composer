@@ -41,10 +41,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/talis/selenium-server-standalone"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/talis/sierra-api-php-client"
         },
         {

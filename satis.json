@@ -25,10 +25,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/talis/fatfree"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/talis/LTI1x-php"
         },
         {

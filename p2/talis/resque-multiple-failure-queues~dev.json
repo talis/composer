@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "talis/resque-multiple-failure-queues": [
+            {
+                "name": "talis/resque-multiple-failure-queues",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/talis/resque-multiple-failure-queues.git",
+                    "reference": "f67c734c35778cc55f5f4b2c6a45b58c645fa87a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/talis/resque-multiple-failure-queues/zipball/f67c734c35778cc55f5f4b2c6a45b58c645fa87a",
+                    "reference": "f67c734c35778cc55f5f4b2c6a45b58c645fa87a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3.0",
+                    "resque/php-resque": "*"
+                },
+                "time": "2026-10-07T12:36:45+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Talis\\Resque\\Failure\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Add-on for php-resque to allow multiple failure queues",
+                "homepage": "https://github.com/talis/resque-multiple-failure-queues",
+                "keywords": [
+                    "php",
+                    "php-resque",
+                    "resque"
+                ],
+                "support": {
+                    "source": "https://github.com/talis/resque-multiple-failure-queues/tree/0.2.0",
+                    "issues": "https://github.com/talis/resque-multiple-failure-queues/issues"
+                }
+            }
+        ]
+    }
+}

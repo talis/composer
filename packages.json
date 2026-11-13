@@ -1,0 +1,24 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$de15af739c909788364490f25ccc5a4549b96106.json": {
+            "sha1": "de15af739c909788364490f25ccc5a4549b96106"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "oclc/auth",
+        "rsinger/worldcat-linkeddata-php",
+        "talis/bootstrap-sass",
+        "talis/conneg",
+        "talis/f3",
+        "talis/lti-1p3-php-library",
+        "talis/lti1x-php",
+        "talis/niso-openurl",
+        "talis/resque-multiple-failure-queues",
+        "talis/sierra-api-php-client",
+        "talis/sruclient-php",
+        "talis/talis-php",
+        "talis/tripod-php"
+    ]
+}
